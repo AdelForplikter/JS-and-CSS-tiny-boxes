@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=BenchNine&display=swap');
+
+body {
+    background-color: #cdd7e0;
+}
+
+#container, html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 0;
+}
+
+.box {
+    margin: 1px;
+    width: 5px;
+    height: 5px;
+    border: 0px solid #535b63;
+    flex: 0 5 5px;
+    /* border-radius: 50%;  circle instead of box*/ 
+}
+
+.box0 {
+    background-color: #cddbeb;
+}
+.box1 {
+    background-color: #acb8c4;
+}
+.box2 {
+    background-color: #e01e3e;
+}
