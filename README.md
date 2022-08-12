@@ -9,19 +9,27 @@
 ## how it works
 
 Each character is represented by 8 squares that is either 0 or 1
-A = ascii 65 =  01000001
-z = ascii 122 = 01111010
 
-0 = .box0 in styles.css
-1 = .box1 in styles.css
+- A = ascii 65 =  01000001
+- z = ascii 122 = 01111010
+
+### styles.css
+
+- 0 = .box0 in styles.css
+- 1 = .box1 in styles.css
 
 Each quote is then seperated by a 3rd colored square, red.
 new quote = .box2 in styles.css
 
-Colors used in styles.css:
+### Colors used in styles.css
 
+![Color 0](assets/cddbeb.png)
+![Color 1](assets/acb8c4.png)
+![Color 2](assets/e01e3e.png)
+
+```css
 .box0 {
-    background-color: #cddbeb;
+    background-color: #cddbeb; 
 }
 .box1 {
     background-color: #acb8c4;
@@ -29,3 +37,4 @@ Colors used in styles.css:
 .box2 {
     background-color: #e01e3e;
 }
+```
