@@ -2,6 +2,10 @@
 
  Colored boxes drawn by JS and CSS based on bit value of Shakespeare quotes characters.
 
+## Usecase
+
+I wanted a seemingly random background image with a hidden message for use on the web. The low number of unique colors keeps the file size relatively low
+
 ## screenshot
 
 ![it looks something like this, with more boxes](ECxGhrn.png)
